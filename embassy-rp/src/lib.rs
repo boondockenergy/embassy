@@ -29,6 +29,7 @@ mod reset;
 pub mod rom_data;
 pub mod rtc;
 pub mod spi;
+pub mod spi_slave;
 #[cfg(feature = "time-driver")]
 pub mod time_driver;
 pub mod uart;
